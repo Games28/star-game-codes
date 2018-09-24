@@ -11,13 +11,12 @@ public:
 	void DrawDownImage(Graphics& gfx) const;// width 70 height 85
 	void DrawLeftImage(Graphics& gfx) const; //width 85, height 70
 	void DrawRightImage(Graphics& gfx) const; // width 85 height 70
-	void Update(Graphics& gfx);
+	void Update(Graphics& gfx, const Keyboard& kbd);
 
 	
 private:
 	int x = 400;
 	int y = 300;
 	static constexpr int speed = 1;
-	Graphics& gfx;
-	Keyboard& kbd;
+	
 };

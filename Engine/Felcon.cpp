@@ -29776,11 +29776,26 @@ void Felcon::DrawRightImage(Graphics & gfx) const
 
 }
 
-void Felcon::Update(Graphics& gfx)
+void Felcon::Update(Graphics& gfx, const Keyboard& kbd)
 {
 	if (kbd.KeyIsPressed(VK_UP))
 	{
 		DrawUpImage(gfx);
 		--y;
+	}
+	if (kbd.KeyIsPressed(VK_DOWN))
+	{
+		DrawDownImage(gfx);
+		++y;
+	}
+	if (kbd.KeyIsPressed(VK_LEFT))
+	{
+		DrawLeftImage(gfx);
+		--x;
+	}
+	if (kbd.KeyIsPressed(VK_RIGHT))
+	{
+		DrawRightImage(gfx);
+		++x;
 	}
 }

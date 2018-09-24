@@ -1,14 +1,12 @@
-﻿  compilation header save succeeded; see C:\Users\jaked\Desktop\star game code\Chili Framework 2016\Engine\FramebufferPS.shh
-  compilation header save succeeded; see C:\Users\jaked\Desktop\star game code\Chili Framework 2016\Engine\FramebufferVS.shh
+﻿  compilation header save succeeded; see C:\Users\jaked\Desktop\star game code\Engine\FramebufferPS.shh
+  compilation header save succeeded; see C:\Users\jaked\Desktop\star game code\Engine\FramebufferVS.shh
   DXErr.cpp
   Felcon.cpp
   Game.cpp
   Graphics.cpp
-c:\users\jaked\desktop\star game code\chili framework 2016\engine\game.cpp(28): error C2280: 'Felcon::Felcon(void)': attempting to reference a deleted function
-  c:\users\jaked\desktop\star game code\chili framework 2016\engine\felcon.h(22): note: compiler has generated 'Felcon::Felcon' here
-  c:\users\jaked\desktop\star game code\chili framework 2016\engine\felcon.h(22): note: 'Felcon::Felcon(void)': function was implicitly deleted because 'Felcon' has an uninitialized data member 'Felcon::kbd' of reference type (compiling source file Game.cpp)
-  c:\users\jaked\desktop\star game code\chili framework 2016\engine\felcon.h(21): note: see declaration of 'Felcon::kbd' (compiling source file Game.cpp)
   Keyboard.cpp
+c:\users\jaked\desktop\star game code\engine\game.cpp(29): error C3806: ',': unexpected token, expected either a '{' or a member-initializer
+c:\users\jaked\desktop\star game code\engine\game.cpp(42): error C3867: 'Felcon::Update': non-standard syntax; use '&' to create a pointer to member
   Main.cpp
   MainWindow.cpp
   Mouse.cpp

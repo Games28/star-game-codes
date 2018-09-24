@@ -39,7 +39,7 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
-	
+	felcon.Update(gfx, kbd);
 }
 
 void Game::ComposeFrame()
