@@ -1,0 +1,3 @@
+﻿  Felcon.cpp
+  Game.cpp
+Felcon.cpp(29782): error C2065: 'gfx': undeclared identifier
